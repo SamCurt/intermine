@@ -10,6 +10,8 @@
   </class>
   <class name="Protein" is-interface="true">
     <attribute name="isFragment" type="java.lang.Boolean"/>
+    <attribute name="mito_evidence_UniProt_keyword" type="java.lang.Boolean"/>
+    <attribute name="mito_evidence_GO" type="java.lang.Boolean"/>    
     <attribute name="isUniprotCanonical" type="java.lang.Boolean"/>
     <attribute name="uniprotAccession" type="java.lang.String"/>
     <attribute name="uniprotName" type="java.lang.String"/>
