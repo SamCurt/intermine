@@ -41,8 +41,8 @@ public class UniprotPostprocess extends PostProcessor
     private static final Logger LOG = Logger.getLogger(UniprotPostprocess.class);
     private ObjectStore os;
     // case sensitive
-    //private static final String MITOCHONDRION = "mitochrondri";
-    private static final String MITOCHONDRION = "Cyto%";
+    private static final String MITOCHONDRION = "mitochrondri%";
+    //private static final String MITOCHONDRION = "Cyto%";
      
 
     /**
